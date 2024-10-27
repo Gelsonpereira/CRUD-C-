@@ -1,0 +1,123 @@
+[
+  {
+    "ContainingType": "Modulo_Api.Controllers.ContatoController",
+    "Method": "Get",
+    "RelativePath": "Contato",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Modulo_Api.Controllers.ContatoController",
+    "Method": "ObterPorId",
+    "RelativePath": "Contato/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Modulo_Api.Controllers.ContatoController",
+    "Method": "AtualizarContato",
+    "RelativePath": "Contato/{id}/Atualizar)",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "contato",
+        "Type": "Modulo_Api.Models.Contato",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Modulo_Api.Controllers.ContatoController",
+    "Method": "DeletarContato",
+    "RelativePath": "Contato/{id}/Deletar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Modulo_Api.Controllers.ContatoController",
+    "Method": "Create",
+    "RelativePath": "Contato/Criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contato",
+        "Type": "Modulo_Api.Models.Contato",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Modulo_Api.Controllers.ContatoController",
+    "Method": "ObterContatoPorNome",
+    "RelativePath": "Contato/ObterPorNome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Modulo_Api.Controllers.UsuarioController",
+    "Method": "Apresentar",
+    "RelativePath": "Usuario/Apresentar/{nome}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Modulo_Api.Controllers.UsuarioController",
+    "Method": "ObterDataHora",
+    "RelativePath": "Usuario/ObterDataHoraAtual",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
